@@ -25,12 +25,12 @@ os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"] = str(args.gpu_id)
 
 resnet50_conv = Resnet50FPN()
-resnet50_conv = torch.load("./li4/backbone.pth")
+resnet50_conv = torch.load("backbone.pth")
 resnet50_conv.cuda()
 resnet50_conv.eval()
 
 regressor = DensityRegressor(10, pool='mean')
-regressor.load_state_dict(torch.load("./li4/generate_density.pth"))
+regressor.load_state_dict(torch.load("generate_density.pth"))
 regressor.cuda()
 regressor.eval()
 
