@@ -17,7 +17,7 @@ parser.add_argument("-o", "--output-dir", type=str, default="./showimg/", help="
 args = parser.parse_args()
 
 data_path = args.data_path
-anno_file = data_path + 'chicken.json'
+anno_file = data_path + 'chicken_annocation.json'
 data_split_file = data_path + 'Train_Test_Val_chicken.json'
 im_dir = data_path + 'images'
 
