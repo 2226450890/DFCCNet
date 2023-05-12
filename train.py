@@ -15,11 +15,11 @@ import torch.nn.functional as F
 from torch.optim import lr_scheduler
 
 parser = argparse.ArgumentParser(description="Counting code")
-parser.add_argument("-dp", "--data_path", type=str, default='./chicken/', help="Path to the dataset")
-parser.add_argument("-o", "--output_dir", type=str, default="./output", help="Path to save models")
-parser.add_argument("-ts", "--test-split", type=str, default='val', choices=["train", "test", "val"],
+parser.add_argument("-dp", "--data_path", type=str, default='', help="Path to the dataset")
+parser.add_argument("-o", "--output_dir", type=str, default='', help="Path to save models")
+parser.add_argument("-ts", "--test-split", type=str, default='', choices=["train", "test", "val"],
                     help="what data split to evaluate on on")
-parser.add_argument("-ep", "--epochs", type=int, default=200, help="number of training epochs")
+parser.add_argument("-ep", "--epochs", type=int, default=, help="number of training epochs")
 parser.add_argument("-g", "--gpu", type=int, default=0, help="GPU id")
 parser.add_argument("-wm", "--extra_loss_weight", type=float, default=1e-9, help="weight for extra Loss")
 parser.add_argument("-lr", "--learning-rate", type=float, default=1e-5, help="learning rate")
