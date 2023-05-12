@@ -13,10 +13,10 @@ CUDA: 11.3
 
 ## Data Setup
 Download Dense-Chicken Dataset from
-Baidu Disk: [link](http://pan.baidu.com/s/1nuAYslz)  
+aliyun drive: [link](https://www.aliyundrive.com/s/3sDZtJZcSsZ) 
 
 ## Evaluation
-&emsp;1. We are providing our pretrained model, and the evaluation code can be used without the training. Download pretrained model from Baidu Disk: [link](http://pan.baidu.com/s/1nuAYslz).  
+&emsp;1. We are providing our pretrained model, and the evaluation code can be used without the training. Download pretrained model from aliyun drive: [link](https://www.aliyundrive.com/s/vR1iU2vP1od).  
 &emsp;2. To run code quickly, we have to set up the following directory structure in our project directory.
     
 ```
@@ -45,9 +45,13 @@ DCCNet                                           # Project folder. Typically we 
 python test.py
 ```  
 
-# Training
-&emsp;1. Configure the files required to run, and modify the root path in the "train.py" based on your dataset location.   
-&emsp;2. Run train.py:
+## Training
+&emsp;1. Configure the files required to run, and modify the root path in the "train.py" based on your dataset location.  
+&emsp;2. Generates feature convolution kernels:
+```
+python generate_conv.py
+```  
+&emsp;3. Run train.py:
 ```
 python train.py
 ```  
