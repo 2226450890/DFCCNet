@@ -16,7 +16,7 @@ from torch.optim import lr_scheduler
 
 parser = argparse.ArgumentParser(description="Counting code")
 parser.add_argument("-dp", "--data_path", type=str, default='./chicken/', help="Path to the dataset")
-parser.add_argument("-o", "--output_dir", type=str, default="./li8", help="Path to save models")
+parser.add_argument("-o", "--output_dir", type=str, default="./output", help="Path to save models")
 parser.add_argument("-ts", "--test-split", type=str, default='val', choices=["train", "test", "val"],
                     help="what data split to evaluate on on")
 parser.add_argument("-ep", "--epochs", type=int, default=200, help="number of training epochs")
