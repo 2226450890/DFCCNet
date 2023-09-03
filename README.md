@@ -20,7 +20,7 @@ aliyun drive: [link](https://www.aliyundrive.com/s/3sDZtJZcSsZ)
 &emsp;2. To run code quickly, we have to set up the following directory structure in our project directory.
     
 ```
-DCCNet                                           # Project folder. Typically we run our code from this folder.
+DFCCNet                                           # Project folder. Typically we run our code from this folder.
 │   
 │───chicken                                      # Folder where we save run-related files.
 │   │───conv                                     # Folder that contains the feature convolution kernels 
