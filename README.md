@@ -1,4 +1,4 @@
-# DCCNet
+# DFCCNet
 ![image](https://github.com/2226450890/DCCNet/blob/master/eight.jpg)
 A dense flock of chickens counting model based on density map regression.
 
