@@ -13,10 +13,10 @@ CUDA: 11.3
 
 ## Data Setup
 Download Dense-Chicken Dataset from
-aliyun drive: [link](https://www.aliyundrive.com/s/3sDZtJZcSsZ) 
+aliyun drive: [link](https://1drv.ms/u/s!ApyDG30rBigLhAHtFj8Qo05Eg9zC?e=RQABuT) 
 
 ## Evaluation
-&emsp;1. We are providing our pretrained model, and the evaluation code can be used without the training. Download pretrained model from aliyun drive: [link](https://www.aliyundrive.com/s/vR1iU2vP1od).  
+&emsp;1. We are providing our pretrained model, and the evaluation code can be used without the training. Download pretrained model from aliyun drive: [link](https://1drv.ms/u/s!ApyDG30rBigLhAKqLOYPAFau0riE?e=rgjyES).  
 &emsp;2. To run code quickly, we have to set up the following directory structure in our project directory.
     
 ```
