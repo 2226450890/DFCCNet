@@ -13,7 +13,7 @@ CUDA: 11.3
 
 ## Data Setup
 Download Dense-Chicken Dataset from
-aliyun drive: [link](https://stuscaueducn-my.sharepoint.com/:u:/g/personal/3170062_stu_scau_edu_cn/EWjZES9IzFtJkluC8KsLfgcBV2rYWoGDOFGBh78-mPzAuQ?e=ndMN0Z) 
+aliyun drive: [link](https://stuscaueducn-my.sharepoint.com/:u:/g/personal/3170062_stu_scau_edu_cn/ETT-vDigmvZBu6EgSRtSn0sBnNHLojY_tDmiVaoZteVP3g?e=rGa2yO) 
 
 ## Evaluation
 &emsp;1. We are providing our pretrained model, and the evaluation code can be used without the training. Download pretrained model from aliyun drive: [link](https://stuscaueducn-my.sharepoint.com/:u:/g/personal/3170062_stu_scau_edu_cn/EV5-CSBgb2NPmBfWz_ks9woBKOb5vc42cW4BG6IfWQF4rQ?e=ydp6FM).  
