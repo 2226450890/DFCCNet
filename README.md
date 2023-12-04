@@ -1,7 +1,7 @@
 # DFCCNet
 ![image](https://github.com/2226450890/DCCNet/blob/master/eight.jpg)
 A dense flock of chickens counting model based on density map regression.
-
+If you want to learn more about the method, read the article: https://doi.org/10.3390/ani13233729
 ## Prerequisites
 We strongly recommend Anaconda as the environment.
 
@@ -55,3 +55,5 @@ python generate_conv.py
 ```
 python train.py
 ```  
+## Citing
+&emsp;Please cite this article if our code and data were helpful to you! https://doi.org/10.3390/ani13233729
