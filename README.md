@@ -15,6 +15,11 @@ CUDA: 11.3
 Download Dense-Chicken Dataset from
 OneDrive: [link](https://stuscaueducn-my.sharepoint.com/:u:/g/personal/3170062_stu_scau_edu_cn/ETT-vDigmvZBu6EgSRtSn0sBnNHLojY_tDmiVaoZteVP3g?e=rGa2yO) 
 
+If you want to explore video based chicken counting, download these videos：
+Baidu Netdisk: [link](https://pan.baidu.com/s/1CcNxEQ9XB2PJrxSBOHvpqw?pwd=crx3)
+
+All references to data need to cite our article and indicate the source of the data.
+
 ## Evaluation
 &emsp;1. We are providing our pretrained model, and the evaluation code can be used without the training. Download pretrained model from OneDrive: [link](https://stuscaueducn-my.sharepoint.com/:u:/g/personal/3170062_stu_scau_edu_cn/EV5-CSBgb2NPmBfWz_ks9woBKOb5vc42cW4BG6IfWQF4rQ?e=ydp6FM).  
 &emsp;2. To run code quickly, we have to set up the following directory structure in our project directory.
