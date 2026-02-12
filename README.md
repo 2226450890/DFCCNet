@@ -62,3 +62,5 @@ python train.py
 ```  
 ## Citing
 &emsp;Please cite this article if our code and data were helpful to you! https://doi.org/10.3390/ani13233729
+
+&emsp;Further research results can be found at https://doi.org/10.1016/j.compag.2025.111172
